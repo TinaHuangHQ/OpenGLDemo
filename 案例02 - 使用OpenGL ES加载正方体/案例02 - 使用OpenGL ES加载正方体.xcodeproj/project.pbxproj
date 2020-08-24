@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		093A156124F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正文体.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "案例02 - 使用OpenGL ES加载正文体.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093A156124F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正方体.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "案例02 - 使用OpenGL ES加载正方体.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		093A156424F2C4D100E50708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		093A156524F2C4D100E50708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		093A156724F2C4D100E50708 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		093A155824F2C4D100E50708 = {
 			isa = PBXGroup;
 			children = (
-				093A156324F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正文体 */,
+				093A156324F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正方体 */,
 				093A156224F2C4D100E50708 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +55,12 @@
 		093A156224F2C4D100E50708 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				093A156124F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正文体.app */,
+				093A156124F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正方体.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		093A156324F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正文体 */ = {
+		093A156324F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正方体 */ = {
 			isa = PBXGroup;
 			children = (
 				093A156424F2C4D100E50708 /* AppDelegate.h */,
@@ -76,15 +76,15 @@
 				093A157524F2C4D300E50708 /* Info.plist */,
 				093A157624F2C4D300E50708 /* main.m */,
 			);
-			path = "案例02 - 使用OpenGL ES加载正文体";
+			path = "案例02 - 使用OpenGL ES加载正方体";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		093A156024F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正文体 */ = {
+		093A156024F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正方体 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 093A157A24F2C4D300E50708 /* Build configuration list for PBXNativeTarget "案例02 - 使用OpenGL ES加载正文体" */;
+			buildConfigurationList = 093A157A24F2C4D300E50708 /* Build configuration list for PBXNativeTarget "案例02 - 使用OpenGL ES加载正方体" */;
 			buildPhases = (
 				093A155D24F2C4D100E50708 /* Sources */,
 				093A155E24F2C4D100E50708 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "案例02 - 使用OpenGL ES加载正文体";
+			name = "案例02 - 使用OpenGL ES加载正方体";
 			productName = "案例02 - 使用OpenGL ES加载正文体";
-			productReference = 093A156124F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正文体.app */;
+			productReference = 093A156124F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正方体.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 093A155C24F2C4D100E50708 /* Build configuration list for PBXProject "案例02 - 使用OpenGL ES加载正文体" */;
+			buildConfigurationList = 093A155C24F2C4D100E50708 /* Build configuration list for PBXProject "案例02 - 使用OpenGL ES加载正方体" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				093A156024F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正文体 */,
+				093A156024F2C4D100E50708 /* 案例02 - 使用OpenGL ES加载正方体 */,
 			);
 		};
 /* End PBXProject section */
@@ -295,13 +295,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				INFOPLIST_FILE = "案例02 - 使用OpenGL ES加载正文体/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/案例02 - 使用OpenGL ES加载正方体/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hq.--02-----OpenGL-ES-----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "案例02 - 使用OpenGL ES加载正方体";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,13 +312,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				INFOPLIST_FILE = "案例02 - 使用OpenGL ES加载正文体/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/案例02 - 使用OpenGL ES加载正方体/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hq.--02-----OpenGL-ES-----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "案例02 - 使用OpenGL ES加载正方体";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		093A155C24F2C4D100E50708 /* Build configuration list for PBXProject "案例02 - 使用OpenGL ES加载正文体" */ = {
+		093A155C24F2C4D100E50708 /* Build configuration list for PBXProject "案例02 - 使用OpenGL ES加载正方体" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				093A157824F2C4D300E50708 /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		093A157A24F2C4D300E50708 /* Build configuration list for PBXNativeTarget "案例02 - 使用OpenGL ES加载正文体" */ = {
+		093A157A24F2C4D300E50708 /* Build configuration list for PBXNativeTarget "案例02 - 使用OpenGL ES加载正方体" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				093A157B24F2C4D300E50708 /* Debug */,
