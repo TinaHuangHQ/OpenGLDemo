@@ -48,7 +48,6 @@ void main (void) {
         vn = v2;
     }
     
-    vec4 mid = texture2D(Texture, vn);
     float a = atan((x - vn.x)/(y - vn.y));
 
     vec2 area1 = vec2(vn.x, vn.y - mosaicSize * TR / 2.0);
