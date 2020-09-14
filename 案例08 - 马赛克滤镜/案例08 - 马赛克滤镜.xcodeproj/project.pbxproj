@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09C95076250D0E4E00B0BB3B /* HexagonMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09C95074250D0E4E00B0BB3B /* HexagonMosaic.vsh */; };
+		09C95077250D0E4E00B0BB3B /* HexagonMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09C95075250D0E4E00B0BB3B /* HexagonMosaic.fsh */; };
+		09C9507B250FC85E00B0BB3B /* TriangularMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09C95079250FC85E00B0BB3B /* TriangularMosaic.vsh */; };
+		09C9507C250FC85E00B0BB3B /* TriangularMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09C9507A250FC85E00B0BB3B /* TriangularMosaic.fsh */; };
 		524D89F32509F3E5007B551E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D89F22509F3E5007B551E /* AppDelegate.m */; };
 		524D89F62509F3E5007B551E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D89F52509F3E5007B551E /* SceneDelegate.m */; };
 		524D89F92509F3E5007B551E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D89F82509F3E5007B551E /* ViewController.m */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09C95074250D0E4E00B0BB3B /* HexagonMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HexagonMosaic.vsh; sourceTree = "<group>"; };
+		09C95075250D0E4E00B0BB3B /* HexagonMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HexagonMosaic.fsh; sourceTree = "<group>"; };
+		09C95079250FC85E00B0BB3B /* TriangularMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TriangularMosaic.vsh; sourceTree = "<group>"; };
+		09C9507A250FC85E00B0BB3B /* TriangularMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TriangularMosaic.fsh; sourceTree = "<group>"; };
 		524D89EE2509F3E5007B551E /* 案例08 - 马赛克滤镜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "案例08 - 马赛克滤镜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D89F12509F3E5007B551E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		524D89F22509F3E5007B551E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +74,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09C95073250D0E1C00B0BB3B /* HexagonMosaic */ = {
+			isa = PBXGroup;
+			children = (
+				09C95075250D0E4E00B0BB3B /* HexagonMosaic.fsh */,
+				09C95074250D0E4E00B0BB3B /* HexagonMosaic.vsh */,
+			);
+			path = HexagonMosaic;
+			sourceTree = "<group>";
+		};
+		09C95078250FC84500B0BB3B /* TriangularMosaic */ = {
+			isa = PBXGroup;
+			children = (
+				09C9507A250FC85E00B0BB3B /* TriangularMosaic.fsh */,
+				09C95079250FC85E00B0BB3B /* TriangularMosaic.vsh */,
+			);
+			path = TriangularMosaic;
+			sourceTree = "<group>";
+		};
 		524D89E52509F3E5007B551E = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +143,8 @@
 		524D8A132509F423007B551E /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				09C95078250FC84500B0BB3B /* TriangularMosaic */,
+				09C95073250D0E1C00B0BB3B /* HexagonMosaic */,
 				524D8A23250A23D4007B551E /* Mosaic */,
 				524D8A1E250A1C09007B551E /* Reversal */,
 				524D8A19250A1905007B551E /* Gray */,
@@ -224,11 +252,15 @@
 				524D8A162509F452007B551E /* Normal.vsh in Resources */,
 				524D8A012509F3E8007B551E /* LaunchScreen.storyboard in Resources */,
 				524D8A21250A1C31007B551E /* Reversal.fsh in Resources */,
+				09C95076250D0E4E00B0BB3B /* HexagonMosaic.vsh in Resources */,
 				524D8A26250A23E8007B551E /* Mosaic.fsh in Resources */,
+				09C9507C250FC85E00B0BB3B /* TriangularMosaic.fsh in Resources */,
 				524D8A0B2509F3F2007B551E /* nn.jpg in Resources */,
 				524D89FE2509F3E8007B551E /* Assets.xcassets in Resources */,
 				524D8A27250A23E8007B551E /* Mosaic.vsh in Resources */,
 				524D89FC2509F3E5007B551E /* Main.storyboard in Resources */,
+				09C95077250D0E4E00B0BB3B /* HexagonMosaic.fsh in Resources */,
+				09C9507B250FC85E00B0BB3B /* TriangularMosaic.vsh in Resources */,
 				524D8A22250A1C31007B551E /* Reversal.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
