@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09C950802513C4E300B0BB3B /* SoulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09C9507E2513C4E300B0BB3B /* SoulOut.fsh */; };
+		09C950812513C4E300B0BB3B /* SoulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09C9507F2513C4E300B0BB3B /* SoulOut.vsh */; };
 		524D8B8F25130D94007B551E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D8B8E25130D94007B551E /* AppDelegate.m */; };
 		524D8B9225130D94007B551E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D8B9125130D94007B551E /* SceneDelegate.m */; };
 		524D8B9525130D94007B551E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D8B9425130D94007B551E /* ViewController.m */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09C9507E2513C4E300B0BB3B /* SoulOut.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SoulOut.fsh; sourceTree = "<group>"; };
+		09C9507F2513C4E300B0BB3B /* SoulOut.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SoulOut.vsh; sourceTree = "<group>"; };
 		524D8B8A25130D94007B551E /* 案例09 - 幻觉滤镜.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "案例09 - 幻觉滤镜.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D8B8D25130D94007B551E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		524D8B8E25130D94007B551E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09C9507D2513C4BA00B0BB3B /* SoulOut */ = {
+			isa = PBXGroup;
+			children = (
+				09C9507E2513C4E300B0BB3B /* SoulOut.fsh */,
+				09C9507F2513C4E300B0BB3B /* SoulOut.vsh */,
+			);
+			path = SoulOut;
+			sourceTree = "<group>";
+		};
 		524D8B8125130D93007B551E = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +122,7 @@
 		524D8BAF25130DFC007B551E /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				09C9507D2513C4BA00B0BB3B /* SoulOut */,
 				524D8BB52513413B007B551E /* scale */,
 				524D8BB025133073007B551E /* normal */,
 			);
@@ -195,9 +209,11 @@
 				524D8B9D25130D96007B551E /* LaunchScreen.storyboard in Resources */,
 				524D8BB425133073007B551E /* Normal.vsh in Resources */,
 				524D8BAE25130DEC007B551E /* nn.jpg in Resources */,
+				09C950812513C4E300B0BB3B /* SoulOut.vsh in Resources */,
 				524D8B9A25130D96007B551E /* Assets.xcassets in Resources */,
 				524D8BB825134166007B551E /* Scale.vsh in Resources */,
 				524D8B9825130D94007B551E /* Main.storyboard in Resources */,
+				09C950802513C4E300B0BB3B /* SoulOut.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
